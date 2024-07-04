@@ -50,7 +50,7 @@ const Carousel = () => {
           {index === slide && (
             <div className='relative'>
               <img className='w-screen h-[25vh] md:h-[40vh] sm:h-[30vh] lg:h-[70vh]' src={item.url} alt='/' />
-              <div className='absolute inset-0 flex justify-center items-center'>
+              <div className='absolute inset-0 flex justify-center items-center font-cursive'>
                 <Typewriter
                   text={item.text}
                   typeSpeed={100}
